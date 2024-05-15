@@ -75,7 +75,7 @@ app.get('/', (req, res) => {
         <body>
             <div class="container">
                 <h1>Welcome To <span id="popText">DevOps Training</span></h1>
-                <p>By Pramoth!</p>
+                <p>Happy Learning!</p>
             </div>
 
             <script>
@@ -91,7 +91,7 @@ app.get('/', (req, res) => {
 });
 
 // Start the server on port 3000
-const port = 2000;
+const port = 3000;
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
